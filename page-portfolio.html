@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nattapat - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Nattapat</div>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="about.html">เกี่ยวกับฉัน</a></li>
+                <li><a href="education.html">การศึกษา</a></li>
+                <li><a href="portfolio.html" class="active">ผลงาน</a></li>
+                <li><a href="contact.html">ติดต่อ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portfolio Page -->
+    <div class="page">
+        <div class="container">
+            <div class="content">
+                <h1 class="page-title">ผลงานและรางวัล</h1>
+                
+                <div class="section">
+                    <h2>🏆 รางวัลการประกวด</h2>
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item">
+                            <div class="portfolio-icon">🥈</div>
+                            <h3>รางวัลที่ 2</h3>
+                            <p>การแข่งขันทำ Motion Graphic<br>ระดับ ปวช.</p>
+                        </div>
+                        <div class="portfolio-item">
+                            <div class="portfolio-icon">🥈</div>
+                            <h3>รางวัลที่ 2</h3>
+                            <p>การแข่งขันโครงการ<br>ระดับ ปวส.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>💼 ทักษะและความสามารถ</h2>
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item">
+                            <div class="portfolio-icon">🎨</div>
+                            <h3>การวาดรูป</h3>
+                            <p>มีทักษะในการวาดรูปและออกแบบกราฟิกเชิงสร้างสรรค์</p>
+                        </div>
+                        <div class="portfolio-item">
+                            <div class="portfolio-icon">🎬</div>
+                            <h3>Motion Graphic</h3>
+                            <p>สามารถสร้าง Motion Graphic และแอนิเมชันได้</p>
+                        </div>
+                        <div class="portfolio-item">
+                            <div class="portfolio-icon">📱</div>
+                            <h3>การทำสื่อ</h3>
+                            <p>มีความสามารถในการสร้างสื่อดิจิทัลและคอนเทนต์</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
